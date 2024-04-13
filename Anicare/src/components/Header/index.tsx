@@ -6,6 +6,8 @@ import closeIMG from "../../assets/close.svg"
 import logoimg from "../../assets/logo.svg"
 import { useState } from "react"
 import anicarelogo from "../../assets/logoanicare.jpeg"
+import bandimage from "../../assets/bandimage.jpg"
+import "../../styles/header.css"
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -55,6 +57,9 @@ export function Header() {
               <a href="https://vihaan007.vercel.app/maps.html">Anicare Maps</a>
             </li>
           </ul>
+          <div className="bandimage">
+            <img src={bandimage} alt="" />
+          </div>
         </nav>
       </NavegationMobile>
 
@@ -82,6 +87,9 @@ export function Header() {
               <a href="https://vihaan007.vercel.app/maps.html">Anicare Maps</a>
             </li>
           </ul>
+          <div className="bandimage">
+            <img src={bandimage} alt="" />
+          </div>
         </nav>
       </HeaderNavegation>
     </>

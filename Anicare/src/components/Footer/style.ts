@@ -29,7 +29,9 @@ export const Container = styled.footer`
 `
 
 export const Contact = styled.div`
+
   p {
+    
     color: var(--blue-light);
     line-height: 2.3rem;
     margin-top: 2rem;

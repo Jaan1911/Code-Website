@@ -12,7 +12,7 @@ import { useState, useEffect } from "react"
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 import axios from "axios"
-
+import "../../styles/footer.css"
 export function Footer() {
 
 
@@ -42,7 +42,7 @@ export function Footer() {
   }
 
   return (
-    <Container>
+    <Container className="footer-container">
       <Contact>
         <img src={anicarelogos} alt="logo" />
 
@@ -51,16 +51,8 @@ export function Footer() {
           all your pet needs such as health-tracking ,integrated training model
           ,wellness, consultations, grooming and nutrition.
         </p>
-
-        <div>
-          <img src={phoneIMg} alt="phone" />
-          <div>
-            <span>(+91) 8529009898</span>
-            <p>Facing any problem ? Call us 24/7</p>
-          </div>
-        </div>
       </Contact>
-
+      <div></div>
       <NewsLetter>
         <span>Newsletter</span>
         <p>
@@ -93,6 +85,13 @@ export function Footer() {
           <a href="#">
             <img src={whatsappIMG} alt="whatsapp" />
           </a>
+        </div>
+        <div>
+         
+          <div>
+            <span>(+91) 8529009898</span>
+            <p>Facing any problem ? Call us 24/7</p>
+          </div>
         </div>
       </NewsLetter>
     </Container>

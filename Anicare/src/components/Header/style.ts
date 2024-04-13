@@ -24,7 +24,7 @@ export const HeaderNavegation = styled.header `
           text-decoration: none;
           color: #000;
           font-weight: bold;
-          font-size: 1.8rem;
+          font-size: 2.3rem;
 
           &:hover {
             color: #193A6A;
