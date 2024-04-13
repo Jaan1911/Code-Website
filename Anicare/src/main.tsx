@@ -13,7 +13,7 @@ import App from './App';
 import Abouts from './components/Abouts';
 import Services from './components/Services';
 import BooksAppointment from './components/BooksAppointment';
-import Mapps from './components/Mapps';
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,7 +22,7 @@ const router = createBrowserRouter(
       <Route path="about" element={<Abouts />} />
       <Route path="services" element={<Services />} />
       <Route path="bookappointment" element={<BooksAppointment />} />
-      <Route path="ourmap" element={<Mapps />} />
+     
     </Route>
   )
 )
