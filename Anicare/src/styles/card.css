@@ -1,0 +1,53 @@
+
+.card{
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+
+
+    .card-body{
+        margin-left: 50px;
+        margin-top: 10px;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        h2{
+            font-size: 29px;
+        }
+        .my-subject{
+            font-size: 23px;
+        }
+
+      
+
+    }
+
+     .button {
+  text-align: center;
+}
+
+.button button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button button:hover {
+  background-color: #0056b3;
+}
+
+.button button:focus {
+  outline: none;
+}
+
+
+
+}
