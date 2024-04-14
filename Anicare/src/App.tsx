@@ -1,30 +1,27 @@
-import { useEffect, useState } from 'react'
-import { InView, useInView } from 'react-intersection-observer';
+import { useEffect, useState } from "react"
+import { InView, useInView } from "react-intersection-observer"
 
-import { About } from './components/AboutVetic'
-import { BookingAppointment } from './components/BookingAppointment'
-import { ClientReviews } from './components/ClientReviews'
-import { Footer } from './components/Footer'
-import { Galery } from './components/Galery'
+import { About } from "./components/Aboutt"
+import { BookingAppointment } from "./components/BookingAppointment"
+import { ClientReviews } from "./components/ClientReviews"
+import { Footer } from "./components/Footer"
+import { Galery } from "./components/Galery"
 
-import { Header } from './components/Header'
-import { OurServices } from './components/OurServices'
-import { GlobalStyle } from './styles/globals'
-import { Main } from './components/Main';
-
+import { Header } from "./components/Header"
+import { OurServices } from "./components/OurServices"
+import { GlobalStyle } from "./styles/globals"
+import { Main } from "./components/Main"
 
 function App() {
   return (
     <>
       <GlobalStyle />
-    <Main/>
+      <Main />
       <BookingAppointment />
-      <OurServices/>
+      <OurServices />
       <About />
       <Galery />
       <ClientReviews />
-    
-     
     </>
   )
 }

@@ -1,12 +1,11 @@
-import React from 'react'
+import React from "react"
 
-import { About } from "./AboutVetic"
-import { GlobalStyle } from '../styles/globals'
+import { About } from "./Aboutt"
+import { GlobalStyle } from "../styles/globals"
 function Abouts() {
   return (
     <div>
-   
-      <GlobalStyle/>
+      <GlobalStyle />
       <About />
     </div>
   )
